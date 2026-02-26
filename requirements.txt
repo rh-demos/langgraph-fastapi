@@ -2,13 +2,10 @@
 llama-stack-client==0.3.5
 python-dotenv==1.2.1
 
-# LangGraph and LangChain
+# LangGraph
 langgraph==1.0.4
 langgraph-checkpoint==3.0.1
-langgraph-prebuilt==1.0.5
 langgraph-sdk==0.2.14
-langchain-core==1.1.1
-langchain-openai==1.1.0
 
 # FastAPI
 fastapi==0.115.5
