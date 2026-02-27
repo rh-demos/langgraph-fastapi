@@ -16,15 +16,15 @@ spec:
     spec:
       containers:
       - name: langgraph-fastapi
-        image: quay.io/jonkey/langgraph-fastapi:1.0.3
+        image: quay.io/jonkey/langgraph-fastapi:1.0.4
         imagePullPolicy: Always
         env:
         - name: LLAMA_STACK_BASE_URL
           value: http://llamastack-distribution-service:8321
         - name: API_KEY
           value: "fake"
-        - name: INFERENCE_MODEL
-          value: vllm/qwen3-8b
+        - name: ALLOWED_MODELS
+          value: "vllm/qwen3-8b,openrouter/nvidia/nemotron-3-nano-30b-a3b:free"
         - name: TAVILY_SEARCH_API_KEY
           value: ""
 
