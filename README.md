@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 ## Follow the numbers
 
-The goal is to arrive at a basic Agent that accepts an email address and finds the orders for that customer.
+The goal is to arrive at a basic Reasoning pipeline that accepts an email address and finds the orders for that customer.
 
 ```bash
 cp .env.example .env

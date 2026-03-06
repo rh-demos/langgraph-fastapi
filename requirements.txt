@@ -1,5 +1,5 @@
 # Core
-llama-stack-client==0.3.5
+llama-stack-client==0.4.2
 python-dotenv==1.2.1
 
 # LangGraph
